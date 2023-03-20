@@ -108,3 +108,20 @@
 
 
 // console.log(pessoa.caracteristicas.cabelo);  // uma forma que podemos usar para poder expicificar ainda mais o codigo
+
+
+// criando props e metodos metodos em objs existentes
+// O objeto não e imutavel ele pode ganhar propriedades e metodos ao longo do código
+
+
+let pessoa ={
+    nome:'Matheus',
+}
+
+pessoa.idade = 29;
+
+pessoa.falar = function(){
+    console.log('Olá');
+}
+
+console.log(pessoa);
