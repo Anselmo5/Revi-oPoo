@@ -282,9 +282,20 @@
 //função do ES6, que permite criar objetos mais rapidamente;
 // utilizando nomes de variáveis para nomes de propriedades;
 
-let x = 7;
-let y = 5;
+// let x = 7;
+// let y = 5;
 
-let obj = {x,y};
-console.log(obj.x);
-console.log(obj.y);
+// let obj = {x,y};
+// console.log(obj.x);
+// console.log(obj.y);
+
+// também não precisammos declarar function para métodos no ES6;
+let megazord ={
+    nome:'Megazord',
+    arma: 'espada laser',
+    expldirtudo(){
+        console.log("BOOM!");
+    }
+}
+
+megazord.expldirtudo();
