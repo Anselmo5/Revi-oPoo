@@ -264,16 +264,16 @@
      // Comparando objetos
    // Você só consegue ter objetos iguias, criando uma referência;
  // objetos criados a partir de um construtor, sempre serão diferentes;
- function Robo(nome, arma){
-    this.nome = nome
-    this.arma = arma;
- }
+//  function Robo(nome, arma){
+//     this.nome = nome
+//     this.arma = arma;
+//  }
 
- let robo1 = new Robo('teste', 'revolver');
- let robo2 = new Robo('teste', 'revolver');
+//  let robo1 = new Robo('teste', 'revolver');
+//  let robo2 = new Robo('teste', 'revolver');
 
- console.log(robo1 ===  robo2);
+//  console.log(robo1 ===  robo2);
 
- let robo3 = robo1
+//  let robo3 = robo1
 
- console.log(robo1===robo3);
+//  console.log(robo1===robo3);
