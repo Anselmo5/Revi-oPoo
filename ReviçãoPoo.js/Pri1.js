@@ -407,3 +407,7 @@
 // };
 
 // a.falar.call(b);
+
+// Definindo classes
+// A delaração é bem parecida com o constructor functions;
+// As propriedades devem ficar num método especial chamado constructor
