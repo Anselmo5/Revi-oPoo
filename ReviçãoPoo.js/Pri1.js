@@ -430,24 +430,24 @@
 //Protptype methods
 // São métodos que já existem na Class, por exemplo os getters e setters
 
-class Tenis{
-    constructor(modelo,cor){
-    this.modelo =modelo;
-    this.cor = cor;
-    }
+// class Tenis{
+//     constructor(modelo,cor){
+//     this.modelo =modelo;
+//     this.cor = cor;
+//     }
 
-    modeloDoTenis(){
-        return this.modelo;
-    }
-    set trocarModelo(novoModelo){
-        this.modelo = novoModelo;
-    }
+//     modeloDoTenis(){
+//         return this.modelo;
+//     }
+//     set trocarModelo(novoModelo){
+//         this.modelo = novoModelo;
+//     }
 
-    get obterModelo(){
-        return "O modelo do tenis é :" + this.modelo;
-    }
-}
+//     get obterModelo(){
+//         return "O modelo do tenis é :" + this.modelo;
+//     }
+// }
     
-let allstar = new Tenis ("All Star", "Branco")
-allstar.trocarModelo ="All Star 2.0";
-console.log(allstar.obterModelo);
+// let allstar = new Tenis ("All Star", "Branco")
+// allstar.trocarModelo ="All Star 2.0";
+// console.log(allstar.obterModelo);
