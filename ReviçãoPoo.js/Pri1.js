@@ -132,19 +132,36 @@
 // Como é possivel adicionar, também podemos deletar propriedades dos objetos
 
 
+// let pessoa ={
+//     nome:'Matheus',
+// }
+
+// pessoa.idade = 29;
+
+// pessoa.falar = function(){
+//     console.log('Olá');
+// }
+
+
+// delete pessoa.idade;
+// delete pessoa.falar;
+
+// console.log(pessoa);
+
+
+
+//Utilizando o this no objeto
+// A palavra reservada this dentro de um objeto, vai se reverir a própria instância(valor)
+// Podemos utilizar o this para resgatar as prooriedades(caracteristicas) em metodo(função(ação))
+
 let pessoa ={
-    nome:'Matheus',
+    nome: 'Matheus',
 }
 
 pessoa.idade = 29;
 
 pessoa.falar = function(){
-    console.log('Olá');
+    console.log('Olá mechamo '+ this.nome,'eu tenho '+ this.idade,'Anos');
 }
 
-
-delete pessoa.idade;
-delete pessoa.falar;
-
-console.log(pessoa);
-
+pessoa.falar()
