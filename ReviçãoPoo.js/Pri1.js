@@ -427,4 +427,27 @@
 // Outra maneira de criar classes
 // Outra maneita de criar classes é a conhecida como classe anônima;
 
-le
+//Protptype methods
+// São métodos que já existem na Class, por exemplo os getters e setters
+
+class Tenis{
+    constructor(modelo,cor){
+    this.modelo =modelo;
+    this.cor = cor;
+    }
+
+    modeloDoTenis(){
+        return this.modelo;
+    }
+    set trocarModelo(novoModelo){
+        this.modelo = novoModelo;
+    }
+
+    get obterModelo(){
+        return "O modelo do tenis é :" + this.modelo;
+    }
+}
+    
+
+console.log(typeof Tenis);
+let allstar = new Tenis ("All Star", "Branco")
