@@ -342,3 +342,12 @@
 // robo3 = robo1;
 
 // console.log(Object.is(robo1,robo3));
+
+
+//Objecto
+//Possui propriedades e métodos, mesmo o objeto estando vazio;
+// Pode ser criado via new
+
+let o = new Object()
+console.log(o.toString()); //repreesentação do objeto em string
+console.log(o.valueOf()); // retorna o próprio objeto
