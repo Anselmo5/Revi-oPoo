@@ -290,12 +290,25 @@
 // console.log(obj.y);
 
 // também não precisammos declarar function para métodos no ES6;
-let megazord ={
-    nome:'Megazord',
-    arma: 'espada laser',
-    expldirtudo(){
-        console.log("BOOM!");
-    }
+// let megazord ={
+//     nome:'Megazord',
+//     arma: 'espada laser',
+//     expldirtudo(){
+//         console.log("BOOM!");
+//     }
+// }
+
+// megazord.expldirtudo();
+
+// podemos também criar propriedades com variáveis ou retorno de funções;
+// Ajudando a escrever menos código;
+
+let tipo = 'tipo_de_'
+
+let carro ={
+    [tipo+"carro"]: "SUV"
 }
 
-megazord.expldirtudo();
+let barco ={
+    
+}
