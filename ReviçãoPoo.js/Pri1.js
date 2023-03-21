@@ -310,5 +310,8 @@ let carro ={
 }
 
 let barco ={
-    
+    [tipo+"barco"]: "iate"
 }
+
+
+console.log(carro.tipo_de_carro);
