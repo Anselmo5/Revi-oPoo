@@ -375,9 +375,9 @@
 // Podemos criar novas funções a partir de new;
 // Obs: não  é utilizado, serve apenas para conhecimento e para você entende como o JS funciona
 
-let teste = new Function(
-    'a',
-    'return arguments'
-);
+// let teste = new Function(
+//     'a',
+//     'return arguments'
+// );
 
-console.log(teste('testando Function'));
+// console.log(teste('testando Function'));
