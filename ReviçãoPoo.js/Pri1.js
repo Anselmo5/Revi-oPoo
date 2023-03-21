@@ -448,6 +448,6 @@ class Tenis{
     }
 }
     
-
-console.log(typeof Tenis);
 let allstar = new Tenis ("All Star", "Branco")
+allstar.trocarModelo ="All Star 2.0";
+console.log(allstar.obterModelo);
