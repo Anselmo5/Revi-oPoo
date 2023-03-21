@@ -303,15 +303,31 @@
 // podemos também criar propriedades com variáveis ou retorno de funções;
 // Ajudando a escrever menos código;
 
-let tipo = 'tipo_de_'
+// let tipo = 'tipo_de_'
 
-let carro ={
-    [tipo+"carro"]: "SUV"
+// let carro ={
+//     [tipo+"carro"]: "SUV"
+// }
+
+// let barco ={
+//     [tipo+"barco"]: "iate"
+// }
+
+
+// console.log(carro.tipo_de_carro);
+
+
+// Copiando propriedades
+// Os objetos herdam métodos do objeto pai object, e podemos utilizá-los;
+// Para copiar propriedades utilizamos o método (assign)
+
+let robo1 ={
+    arma: 'lança granada'
 }
 
-let barco ={
-    [tipo+"barco"]: "iate"
+let robo2={
+
 }
 
-
-console.log(carro.tipo_de_carro);
+Object.assign(robo2,robo1)
+console.log(robo2);
