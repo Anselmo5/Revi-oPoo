@@ -232,20 +232,34 @@
 
 //O operador instanceof
 // uma maneita de saber de qual instância (pai) vem algum objeto, alem de ser mais pratico que usar o constructor
-    function Robo(nome, arma){
-        this.nome = nome;
-        this.arma = arma;
-    }
+    // function Robo(nome, arma){
+    //     this.nome = nome;
+    //     this.arma = arma;
+    // }
 
-    function Humano(nome,){
-        this.nome = nome;
+    // function Humano(nome,){
+    //     this.nome = nome;
     
-    }
+    // }
 
-    let android = new Robo('Xyz', 'Punhos');
+    // let android = new Robo('Xyz', 'Punhos');
 
-    console.log(android instanceof Robo);
-    console.log( android instanceof Humano);
+    // console.log(android instanceof Robo);
+    // console.log( android instanceof Humano);
+
+    // Passando referência de objeto
+    // Quando você atribui um obj já criado para uma outra variável, você só está passando uma referência;
+    // Se alterar a referência, o original também é alterado
+
+    // let obj ={
+    //     teste: 4,
+    // }
+
+    // let copia = obj
+
+    // copia.teste = 7;
+    // console.log(obj.teste);
 
 
-
+    // Comparando objetos
+   // Você só consegue ter objetos iguias, criando uma referência; 
