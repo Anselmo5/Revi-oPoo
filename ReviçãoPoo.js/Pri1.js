@@ -364,8 +364,20 @@
 
 // console.log(Array instanceof Object); 
 
-let a=[];
-a.push('elemento');
-console.log(a);
-a.pop // remove o último elemento
-console.log(a);
+// let a=[];
+// a.push('elemento');
+// console.log(a);
+// a.pop // remove o último elemento
+// console.log(a);
+
+//function 
+// O objeto para criar funções
+// Podemos criar novas funções a partir de new;
+// Obs: não  é utilizado, serve apenas para conhecimento e para você entende como o JS funciona
+
+let teste = new Function(
+    'a',
+    'return arguments'
+);
+
+console.log(teste('testando Function'));
