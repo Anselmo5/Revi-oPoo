@@ -381,3 +381,11 @@
 // );
 
 // console.log(teste('testando Function'));
+
+// Podemos utilizar a propriedade length para saber o número de argumentos de uma função
+function teste (a,b){
+    return a + b;
+}
+
+console.log(teste.length);
+
