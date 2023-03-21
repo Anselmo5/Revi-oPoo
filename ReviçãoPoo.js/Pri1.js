@@ -165,3 +165,4 @@ pessoa.falar = function(){
 }
 
 pessoa.falar()
+console.log(pessoa);
