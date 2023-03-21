@@ -154,15 +154,78 @@
 // A palavra reservada this dentro de um objeto, vai se reverir a própria instância(valor)
 // Podemos utilizar o this para resgatar as prooriedades(caracteristicas) em metodo(função(ação))
 
-let pessoa ={
-    nome: 'Matheus',
+// let pessoa ={
+//     nome: 'Matheus',
+// }
+
+// pessoa.idade = 29;
+
+// pessoa.falar = function(){
+//     console.log('Olá mechamo '+ this.nome,'eu tenho '+ this.idade,'Anos');
+// }
+
+// pessoa.falar()
+// console.log(pessoa);
+
+
+
+// Constructor functions(ações)
+// Uma outra forma de criar objeto é pela construtor function, alem de o constructor aceita os parâmetros para objetos
+
+// function pessoa(nome) {
+//     this.nome = nome;
+// }
+
+// let pessoa1 = new pessoa('Matheus')
+// let pessoa2 = new pessoa('João')
+
+// console.log(pessoa1.nome);
+// console.log(pessoa2.nome);
+
+
+// Funções que retornam objetos
+// Parecido com a constructor functions, porem não precisamos usar o new
+// Porque o Objeto é cirado com o retorno da função
+
+
+// function criarpessoa(nome){
+//     return{
+//         nome:nome
+//     };
+// }
+
+// let pessoa1 = criarpessoa('Matheus');
+// let pessoa2 = criarpessoa('João')
+
+// console.log(pessoa1.nome);
+// console.log(pessoa2.nome);
+
+
+//O objeto global
+// quando usamos o var tornamos nosso objeto global, onde ele pode ser chamado por qualque operador pelo fato de ser global
+
+// var pessoa = 'teste'
+// console.log(pessoa);
+// console.log(window.pessoa); //elemento dom(document) gerado na janela
+// console.log(this.pessoa);
+
+// A propriedade constructor
+// Quando um objeto é criado, sempre uma propriedade constructor é adicionada a ele, com a referência de como o objeto foi criado
+
+
+function newObj(x){
+    return{
+        x:x
+    };
 }
 
-pessoa.idade = 29;
+let y = newObj(1);
 
-pessoa.falar = function(){
-    console.log('Olá mechamo '+ this.nome,'eu tenho '+ this.idade,'Anos');
+function NewObjTwo(x){
+    this.x = x
 }
 
-pessoa.falar()
-console.log(pessoa);
+let z = new NewObjTwo(2);
+
+console.log(y.constructor);
+console.log(z.constructor);
