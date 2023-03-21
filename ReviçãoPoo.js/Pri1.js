@@ -398,7 +398,7 @@
 let a ={
     name:"A",
     falar(){
-        console.log("Olá sou o método do" +this.name);
+        console.log("Olá sou o método do " +this.name);
     }
 }
 
