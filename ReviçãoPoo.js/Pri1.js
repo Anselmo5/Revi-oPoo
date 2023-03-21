@@ -213,19 +213,21 @@
 // Quando um objeto é criado, sempre uma propriedade constructor é adicionada a ele, com a referência de como o objeto foi criado
 
 
-function newObj(x){
-    return{
-        x:x
-    };
-}
+// function newObj(x){
+//     return{
+//         x:x
+//     };
+// }
 
-let y = newObj(1);
+// let y = newObj(1);
 
-function NewObjTwo(x){
-    this.x = x
-}
+// function NewObjTwo(x){
+//     this.x = x
+// }
 
-let z = new NewObjTwo(2);
+// let z = new NewObjTwo(2);
 
-console.log(y.constructor);
-console.log(z.constructor);
+// console.log(y.constructor);
+// console.log(z.constructor);
+
+//
