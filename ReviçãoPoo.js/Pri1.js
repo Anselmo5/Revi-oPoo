@@ -356,3 +356,10 @@
 // O objeto pai de todos os arrays
 //Pode instanciar um array com new
 //Possui também propriedades e métodos
+
+let a = new Array(1,2,3);
+a[3] = 4;
+
+a.toString();
+
+console.log(Array instanceof Object); 
