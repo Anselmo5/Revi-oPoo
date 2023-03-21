@@ -395,15 +395,15 @@
 // O call pode pegat métodos emprestado de objetos;
 // O método apply funciona igual o call, mas todos os parâmetros são transformados em arrays;
 
-let a ={
-    name:"A",
-    falar(){
-        console.log("Olá sou o método do " +this.name);
-    }
-}
+// let a ={
+//     name:"A",
+//     falar(){
+//         console.log("Olá sou o método do " +this.name);
+//     }
+// }
 
-b = {
-    name: "B",
-};
+// b = {
+//     name: "B",
+// };
 
-a.falar.call(b);
+// a.falar.call(b);
