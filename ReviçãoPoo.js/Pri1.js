@@ -321,13 +321,19 @@
 // Os objetos herdam métodos do objeto pai object, e podemos utilizá-los;
 // Para copiar propriedades utilizamos o método (assign)
 
-let robo1 ={
-    arma: 'lança granada'
-}
+// let robo1 ={
+//     arma: 'lança granada'
+// }
 
-let robo2={
+// let robo2={
 
-}
+// }
 
-Object.assign(robo2,robo1)
-console.log(robo2);
+// Object.assign(robo2,robo1)
+// console.log(robo2);
+
+
+// Comparando objetos
+// Podemos comparar os objetos com o método is
+// Teremos basicamente os mesmos resultados de ===
+//Salvo para Nan
