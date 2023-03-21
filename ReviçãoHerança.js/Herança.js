@@ -10,4 +10,6 @@ class Tenis {
 }
 
 console.log(typeof Tenis);
-let allstar = new Tenis("All Star", "Branco")
+let allstar = new Tenis("All Star", "Branco");
+
+
