@@ -383,9 +383,27 @@
 // console.log(teste('testando Function'));
 
 // Podemos utilizar a propriedade length para saber o número de argumentos de uma função
-function teste (a,b){
-    return a + b;
+// function teste (a,b){
+//     return a + b;
+// }
+
+// console.log(teste.length);
+
+
+//Function
+// Os métodos que podemos utilizar do Function são call e apply;
+// O call pode pegat métodos emprestado de objetos;
+// O método apply funciona igual o call, mas todos os parâmetros são transformados em arrays;
+
+let a ={
+    name:"A",
+    falar(){
+        console.log("Olá sou o método do" +this.name);
+    }
 }
 
-console.log(teste.length);
+b = {
+    name: "B",
+};
 
+a.falar.call(b);
