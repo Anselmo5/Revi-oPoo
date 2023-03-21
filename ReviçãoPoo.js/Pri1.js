@@ -282,8 +282,9 @@
 //função do ES6, que permite criar objetos mais rapidamente;
 // utilizando nomes de variáveis para nomes de propriedades;
 
-let x = 1;
-let y = 2;
+let x = 7;
+let y = 5;
 
 let obj = {x,y};
 console.log(obj.x);
+console.log(obj.y);
