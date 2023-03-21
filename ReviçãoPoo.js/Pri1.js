@@ -348,6 +348,11 @@
 //Possui propriedades e métodos, mesmo o objeto estando vazio;
 // Pode ser criado via new
 
-let o = new Object()
-console.log(o.toString()); //repreesentação do objeto em string
-console.log(o.valueOf()); // retorna o próprio objeto
+// let o = new Object()
+// console.log(o.toString()); //repreesentação do objeto em string
+// console.log(o.valueOf()); // retorna o próprio objeto
+
+//Array
+// O objeto pai de todos os arrays
+//Pode instanciar um array com new
+//Possui também propriedades e métodos
