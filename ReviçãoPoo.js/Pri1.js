@@ -114,6 +114,24 @@
 // O objeto não e imutavel ele pode ganhar propriedades e metodos ao longo do código
 
 
+// let pessoa ={
+//     nome:'Matheus',
+// }
+
+// pessoa.idade = 29;
+
+// pessoa.falar = function(){
+//     console.log('Olá');
+// }
+
+// console.log(pessoa);
+
+
+
+// deletando propriedades e métodos
+// Como é possivel adicionar, também podemos deletar propriedades dos objetos
+
+
 let pessoa ={
     nome:'Matheus',
 }
@@ -124,4 +142,9 @@ pessoa.falar = function(){
     console.log('Olá');
 }
 
+
+delete pessoa.idade;
+delete pessoa.falar;
+
 console.log(pessoa);
+
