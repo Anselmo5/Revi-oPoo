@@ -414,12 +414,17 @@
 // Onde serão inicializadas;
 
 
-class Tenis{
-    constructor(modelo,cor){
-    this.modelo =modelo;
-    this.cor = cor;
-    }
-}
+// class Tenis{
+//     constructor(modelo,cor){
+//     this.modelo =modelo;
+//     this.cor = cor;
+//     }
+// }
 
-console.log(typeof Tenis);
-let allstar = new Tenis ("All Star", "Branco")
+// console.log(typeof Tenis);
+// let allstar = new Tenis ("All Star", "Branco")
+
+// Outra maneira de criar classes
+// Outra maneita de criar classes é a conhecida como classe anônima;
+
+le
