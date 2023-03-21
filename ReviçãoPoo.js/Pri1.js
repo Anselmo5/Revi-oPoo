@@ -410,4 +410,16 @@
 
 // Definindo classes
 // A delaração é bem parecida com o constructor functions;
-// As propriedades devem ficar num método especial chamado constructor
+// As propriedades devem ficar num método especial chamado constructor;
+// Onde serão inicializadas;
+
+
+class Tenis{
+    constructor(modelo,cor){
+    this.modelo =modelo;
+    this.cor = cor;
+    }
+}
+
+console.log(typeof Tenis);
+let allstar = new Tenis ("All Star", "Branco")
