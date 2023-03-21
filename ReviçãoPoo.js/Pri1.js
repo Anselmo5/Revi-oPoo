@@ -357,9 +357,15 @@
 //Pode instanciar um array com new
 //Possui também propriedades e métodos
 
-let a = new Array(1,2,3);
-a[3] = 4;
+// let a = new Array(1,2,3);
+// a[3] = 4;
 
-a.toString();
+// a.toString();
 
-console.log(Array instanceof Object); 
+// console.log(Array instanceof Object); 
+
+let a=[];
+a.push('elemento');
+console.log(a);
+a.pop // remove o último elemento
+console.log(a);
