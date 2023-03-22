@@ -1,4 +1,3 @@
-
 class Cavalo extends Animal {
     constructor(nome,idade,cor,raça){
         super(nome,idade,cor) 
