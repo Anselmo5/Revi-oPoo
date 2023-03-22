@@ -7,9 +7,17 @@ class Cavalo extends Animal {
 
     }
 
-    Correr(nome){{
+    Correr(nome){
         console.log('Corre bil'+nome);
-    }}
+    }
+
 }  // instancia (padrão)
 
+
+class ponei extends Cavalo{
+    constructor(nome,idade,cor,raça){
+        super(nome,idade,cor,raça) 
+    }
+       
+}
 
