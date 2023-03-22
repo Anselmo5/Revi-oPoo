@@ -35,6 +35,6 @@ class Animal {
     }
     
     Dados(obj){
-        console.table(bjt);
+        console.table(bj);
     }
 }
