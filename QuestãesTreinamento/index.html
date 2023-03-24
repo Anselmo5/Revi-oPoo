@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="Parte1.js"></script>
+    <script src="Parte2.js"></script>
+
+    <script>
+        let a = new Pessoa('Pedro',17,'Portugeus')
+        console.table(a)
+        
+        let b = new Pessoa2('Anselmo',25,'Portugues','softplan',a)
+        console.table(b);
+        b.Falar()
+        a.Responder(b)
+        console.log(b.Empresa())
+
+      
+
+
+        
+    </script>
+</body>
+</html>
